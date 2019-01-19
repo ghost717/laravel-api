@@ -21,6 +21,7 @@ php artisan serve
 ```
 
 ## Build Info
+
 ```bash
 
 >> install laravel 
@@ -42,6 +43,10 @@ Schema::defaultStringLength(191);
 
 php artisan voyager:install --with-dummy
 
+
+>> make auth routing / views
+
+php artisan make:auth
 
 
 ```
