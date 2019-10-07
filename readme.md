@@ -51,6 +51,31 @@ php artisan make:auth
 
 ```
 
+## Commands
+
+```bash
+
+>> run developement
+
+php artisan serve
+
+
+>> make model
+
+php artisan make:model Mypayments
+
+
+>> make controller
+
+php artisan make:controller Mypayments --resource
+
+
+>> routing / make auth views
+
+php artisan make:auth
+
+```
+
 
 ## Deploy
 
@@ -67,6 +92,12 @@ generate key
 migrating DB schema
 
 >> php artisan migrate
+
+>> php artisan db:seed
+
+or 
+
+>> php artisan migrate --seed
 
 ```
 
