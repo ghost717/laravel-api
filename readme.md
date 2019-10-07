@@ -51,3 +51,25 @@ php artisan make:auth
 
 ```
 
+
+## Deploy
+
+```bash
+
+composer install
+
+>> composer install
+
+generate key
+
+>> php artisan key:generate
+
+migrating DB schema
+
+>> php artisan migrate
+
+```
+
+- https://laraveldaily.com/how-to-deploy-laravel-projects-to-live-server-the-ultimate-guide/
+
+
