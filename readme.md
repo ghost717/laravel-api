@@ -55,24 +55,24 @@ php artisan make:auth
 
 ```bash
 
->> run developement
+run developement
 
-php artisan serve
-
-
->> make model
-
-php artisan make:model Mypayments
+>> php artisan serve
 
 
->> make controller
+make model
 
-php artisan make:controller Mypayments --resource
+>> php artisan make:model Post
 
 
->> routing / make auth views
+make controller
 
-php artisan make:auth
+>> php artisan make:controller Post --resource
+
+
+routing / make auth views
+
+>> php artisan make:auth
 
 ```
 
@@ -81,13 +81,17 @@ php artisan make:auth
 
 ```bash
 
+config .env file
+
 composer install
 
 >> composer install
 
+
 generate key
 
 >> php artisan key:generate
+
 
 migrating DB schema
 
